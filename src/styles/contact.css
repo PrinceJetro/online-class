@@ -1,0 +1,272 @@
+.contact .intro{
+    background-image: url("https://img.freepik.com/free-photo/abstract-colorful-splash-3d-background-generative-ai-background_60438-2510.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contact .intro h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+
+.locations_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+.locations_div .location{
+    width: 22%;
+    margin: 30px;
+}
+
+@media screen and (max-width: 540px){
+    .locations_div .location{
+        width: 100%;
+        margin: 15px;
+    }
+    .conclusion{
+        margin-top: 45px;
+    }
+}
+
+.locations_div .location img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.locations_div .location .location_header{
+    color: rgb(34, 54, 69);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.locations_div .location .street, .locations_div .location a {
+    color: rgba(34, 54, 69, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.conclusion{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+@media screen and (min-width: 540px){
+    .conclusion div{
+        width: 55%;
+    }
+}
+
+.conclusion h5{
+    color: rgb(34, 54, 69);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.conclusion h1{
+    color: rgb(34, 54, 69);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.conclusion h1 span{
+    color: rgb(183, 50, 53);
+}
+
+.conclusion p{
+    font-size: 18px;
+    font-style: 400;
+    line-height: 27px;
+}
+
+.conclusion .btn{
+    background-color: rgb(184, 51, 54);
+    color: white;
+    padding-bottom: 24px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 24px;
+}
+
+.form_div{
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 540px){
+    .form_div{
+        padding: 100px;
+    }
+}
+
+
+.form_div h4{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-block-end: -10px;
+    margin-block-start: 0px;
+    margin-bottom: -10px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+}
+
+.form_div h1{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    text-size-adjust: 100%;
+}
+
+
+.form_div input{
+    background-color: rgba(15, 15, 15, 0.5);
+    color: white;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 10px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    height: 50px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form_div input::placeholder {
+    color: white; /* Adjust the color as needed */
+}
+.form_div .div2{
+    padding: 20px;
+}
+
+.form_div textarea{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 15, 15, 0.5);
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.form_div textarea::placeholder {
+    color: white; /* Adjust the color as needed */
+}
+@media screen and (max-width:540px){
+    .form_div{
+        padding: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .form_div h1{
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 48px;
+        text-size-adjust: 100%;
+    }
+    .form_div textarea{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.form_div button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 11px;
+    padding-inline-end: 47px;
+    padding-inline-start: 47px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 10px;
+}
+
+
+.reach_us{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(36, 35, 35);
+    padding: 20px 100px;
+}
+
+.reach_us h1{
+    color: white;
+    font-family: "Abril Fatface", serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    margin-right: 30px;
+}
+
+.reach_us p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 30px;
+}
+
+.reach_us a{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 30px;
+}
+

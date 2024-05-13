@@ -1,0 +1,159 @@
+.intro img{
+    width: 100%;
+}
+
+.intro_wordings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro_wordings h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 75px;
+    color: black;
+}
+
+.intro_wordings h1 span{
+    color: #cd3131;
+    font-family: "Abril Fatface", serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.about_us_image img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.services_div .services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.services_wordings{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services_wordings p, .about_us_wordings p, .about_us_wordings ul{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.about_us_wordings ul strong{
+    font-family: "Abril Fatface", serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+}
+.aboutcourse .row strong{
+    font-family: "Abril Fatface", serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+
+
+}
+
+.services_div .services div{
+    width: 300px;
+    margin: 10px;
+    height: 470px;
+}
+
+.services_div .services div h1{
+    font-family: "Abril Fatface", serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+}
+.services_div .services div p{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+.services_div .services div img{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.about_us_header, .services_header{
+    color: rgb(205, 49, 49);
+    font-family: "Niconne", cursive;
+    font-size: 25px;
+    height: 23px;
+    line-height: 23px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.aboutcourseheader{
+    font-family: "Abril Fatface", serif; 
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(205, 49, 49);
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about_intro, .services_intro{
+    font-family: "Abril Fatface", serif; 
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.aboutcourse{
+    text-align: left;
+    background-color: #bbb;
+}
+
+/* Create two equal columns that floats next to each other */
+.aboutcourse .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .aboutcourse  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width:480px){
+    .aboutcourse .column {
+        float: left;
+        width: 100%;
+        padding: 10px;
+      }
+    
+  }
