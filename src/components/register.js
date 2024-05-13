@@ -72,7 +72,7 @@ export default function Register(){
             </div>
             </div>
 
-                <form onSubmit={createStudent} id="emailForm" className="row">
+                <form onSubmit={createStudent} id="emailForm" className="row p-2">
                 <div className="form_div">
                     <h4 className="text-center">BOOK YOUR</h4>
                     <h1 className="text-center">CLASS</h1>
