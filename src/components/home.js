@@ -46,8 +46,8 @@ export default function Home(){
                 <div className='col-sm-6 about_us_wordings'>
                     <h1 className='about_us_header'>About Us</h1>
                     <div>
-                        <h1 className='about_intro'>Welcome to PrinceJetro Web Dev Training</h1>
-                        <p>Embark on a journey to master web development with PrinceJetro Web Dev Training. Our comprehensive courses and expert instructors will guide you through the intricacies of building modern and dynamic websites. Get ready to unlock your potential and bring your ideas to life on the web!</p>
+                        <h1 className='about_intro'>Welcome to PrinceJetro Web Development Training</h1>
+                        <p>Embark on a journey to master web development with PrinceJetro Web Devevelopment Training. Our comprehensive courses and expert instructors will guide you through the intricacies of building modern and dynamic websites. Get ready to unlock your potential and bring your ideas to life on the web!</p>
                         <ul>
                             <li><strong>Comprehensive Curriculum:</strong> Our program covers HTML, CSS, and JavaScript from the basics to advanced concepts, ensuring you gain a thorough understanding of web development fundamentals.</li>
                             <li><strong>Interactive Learning Environment:</strong> Engage in hands-on learning through live coding sessions, group projects, and peer collaboration, fostering an interactive and immersive learning experience.</li>
@@ -80,12 +80,12 @@ export default function Home(){
             <div className="row">
   <div className="column" >
     <h2><strong>Course Schedule:</strong></h2>
-    <p>Saturdays, starting from the 1st of June, from 1:00 PM to 4:00 PM via Zoom/Google meet(3 hours per session,)</p>
+    <p>Saturdays, starting from the 1st of June, from 1:00 PM to 3:00 PM via Zoom/Google meet(2 hours per session,)</p>
   </div>
-  <div className="column" >
-    <h2><strong>Target Audience:</strong></h2>
-    <p>Beginners with at least 35% knowledge of HTML (not suitable for absolute beginners)</p>
-  </div>
+  <div className="column">
+  <h2><strong>Who Should Attend:</strong></h2>
+  <p>This class is suitable for both beginners and intermediates in HTML and CSS.</p>
+</div>
   <div className="column" >
     <h2><strong>Teaching Approach:</strong></h2>
     <p>Project-driven classes with a focus on practical application</p>
@@ -101,7 +101,7 @@ export default function Home(){
 
   <div className="column" >
     <h2><strong>Course Fee:</strong></h2>
-    <p>Subsequent classes are paid, at a token of N2500 per class</p>
+    <p>Subsequent classes are paid, at a token of N2,000 per class</p>
   </div>
   <div className="column" >
     <h2><strong>Duration:</strong></h2>

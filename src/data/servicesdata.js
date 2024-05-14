@@ -1,4 +1,4 @@
-import projectdriven from "../images/projectdriven.jpg";
+import projectdriven from "../images/laptop.avif";
 import onlineclass from "../images/onlineclass.jpg"
 import homeproject from "../images/write-an-assignment.jpg"
 import two4 from "../images/247.jpg"

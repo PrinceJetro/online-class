@@ -25,6 +25,9 @@
     font-weight: 500;
     line-height: 55px;
 }
+.intro_wordings p{
+    font-size: 24px;
+}
 
 .about_us_image img{
     width: 100%;
@@ -50,8 +53,8 @@
 .services_wordings p, .about_us_wordings p, .about_us_wordings ul{
     color: black;
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .about_us_wordings ul strong{

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ReactDOM } from "react";
+import "../styles/navbar.css"
+
 
 export default function Navbar(){
     return(
