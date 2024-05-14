@@ -12,7 +12,7 @@ export default [
     {
         img: onlineclass,
         header: "Online Classes",
-        about: "Attend classes conveniently from anywhere with our online learning platform. Sessions are conducted via Zoom, offering interactive instruction and real-time interaction with instructors and peers.",
+        about: "Attend classes conveniently from anywhere with our online learning platform. Sessions are conducted via Zoom/Google Meet, offering interactive instruction and real-time interaction with instructors and peers.",
     },
     {
         img: homeproject,
