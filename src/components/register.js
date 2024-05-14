@@ -30,7 +30,7 @@ export default function Register(){
         .then(data => {
             console.log('Your Data Has Been Successfully Uploaded', data);
             // Update state or perform any other action if needed
-            alert("Student Successfully created");
+            alert("Class Successfully Booked");
             document.getElementById("submit_btn").innerHTML="Submit"
             document.getElementById("submit_btn").disabled = false        
             document.getElementById("submit_btn").style.backgroundColor ="transparent"
@@ -72,7 +72,7 @@ export default function Register(){
             </div>
             </div>
 
-                <form onSubmit={createStudent} id="emailForm" className="row">
+                <form onSubmit={createStudent} id="emailForm" className="row p-2">
                 <div className="form_div">
                     <h4 className="text-center">BOOK YOUR</h4>
                     <h1 className="text-center">CLASS</h1>
