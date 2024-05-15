@@ -68,7 +68,7 @@ export default function Register(){
             <div className='reach_us'>
             <h1>Reach Us</h1>
             <p>Contact us for any inquiries or assistance:</p>
-            <a href="mailto:adegbuyijephthah@gmail.com">adegbuyijephthah@gmail.com</a>
+            <a href="mailto:princejetro123@gmail.com">princejetro123@gmail.com</a>
             </div>
             </div>
 
