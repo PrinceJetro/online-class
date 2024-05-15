@@ -45,7 +45,7 @@ export default function Home(){
                 </div>
                 <div className='col-sm-6 about_us_wordings'>
                     <h1 className='about_us_header'>About Us</h1>
-                    <div>
+                    <div className="p-2">
                         <h1 className='about_intro'>Welcome to PrinceJetro Web Development Training</h1>
                         <p>Embark on a journey to master web development with PrinceJetro Web Devevelopment Training. Our comprehensive courses and expert instructors will guide you through the intricacies of building modern and dynamic websites. Get ready to unlock your potential and bring your ideas to life on the web!</p>
                         <ul>
@@ -60,8 +60,8 @@ export default function Home(){
             </div>
 
             <div className='services_div row' id='services'>
-                <div className='col-sm-4 services_wordings'>
-                    <div>
+                <div className='col-sm-4 services_wordings '>
+                    <div className="p-2">
                     <h1 className='services_header'>Services</h1>
                     <h1 className='services_intro'>What We Provide To You</h1>
                     <p>Discover the exceptional services we offer to enhance your experience:</p>
