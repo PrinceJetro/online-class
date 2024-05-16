@@ -22,8 +22,8 @@ function Footer() {
       <div class="footer-center">
 
         <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>3, Ebun Olorun Street</span> Lagos, Nigeria</p>
+          <i class="fa fa-briefcase"></i>
+          <p>Explore Our Portfolio <a href='https://princejetro.vercel.app/project'>here</a></p>
         </div>
 
         <div>
@@ -41,7 +41,7 @@ function Footer() {
       <div class="footer-right">
 
         <p class="footer-company-about">
-          <span>About the developer</span>
+          <span>About the Trainer</span>
           As a passionate developer, I thrive on taking on new challenges and creating innovative solutions. With a keen eye for detail and a love for coding, I'm dedicated to crafting high-quality applications that exceed expectations. Whether it's building immersive user experiences or solving complex technical problems, I'm committed to delivering excellence in every project I undertake.
         </p>
 
