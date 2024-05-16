@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "../styles/home.css";
 import Navbar from './nav';
-import First_img  from "../images/original.png";
-import Second_image from  "../images/55d4e09a-c560-48f7-bf0e-cdcca8e422d4~2.jpg";
+import First_img  from "../images/ai.png";
+import Second_image from  "../images/IMG_0285.jpg";
 import servicesdata from '../data/servicesdata';
 import Register from './register';
-
+import Footer from './footer';
 
 
 
@@ -132,6 +132,8 @@ export default function Home(){
 
             </div>
             <Register/>
+
+            <Footer/>
         </div>
     )
 }
