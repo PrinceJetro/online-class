@@ -23,7 +23,7 @@ function Footer() {
 
         <div>
           <i class="fa fa-briefcase"></i>
-          <p>Explore Our Portfolio <a href='https://princejetro.vercel.app/project'>here</a></p>
+          <p>Explore Our Portfolio <a href='https://princejetro.vercel.app/project' target='_blank'>here</a></p>
         </div>
 
         <div>

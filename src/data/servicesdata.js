@@ -1,7 +1,7 @@
 import projectdriven from "../images/laptop.avif";
 import onlineclass from "../images/onlineclass.jpg"
 import homeproject from "../images/write-an-assignment.jpg"
-import two4 from "../images/247.jpg"
+import community from "../images/community.jpg"
 
 export default [
     {
@@ -20,9 +20,9 @@ export default [
         about: "Enhance your learning by working on projects from the comfort of your home. Apply what you've learned in class to build your own websites and web applications, gaining valuable experience and confidence.",
     },
     {
-        img: two4,
-        header: "24/7 Support",
-        about: "Receive support whenever you need it with our 24/7 assistance. Whether you have questions about the coursework or need technical help, our team is here to provide guidance and support around the clock.",
+        img: community,
+        header: "Community Support",
+        about: "Receive support whenever you need it with our community assistance. Whether you have questions about the coursework or need technical help, our team is here to provide guidance and support around the clock.",
     },
 ];
 
