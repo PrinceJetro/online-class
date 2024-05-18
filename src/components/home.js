@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "../styles/home.css";
 import Navbar from './nav';
-import First_img  from "../images/original.png";
+import First_img  from "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsKc3WzEhNSeFRgB2IVb5OYECl92WUGmpv0Q&usqp=CAU";
 import Second_image from  "../images/me.jpg";
 import servicesdata from '../data/servicesdata';
 import Register from './register';
