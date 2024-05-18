@@ -101,7 +101,7 @@ export default function Home(){
 
   <div className="column" >
     <h2><strong>Course Fee:</strong></h2>
-    <p>Subsequent classes are paid, at a token of N2,000 per class</p>
+    <p>Subsequent classes are paid, at a starting token of N2,000 per class</p>
   </div>
   <div className="column" >
     <h2><strong>Duration:</strong></h2>
