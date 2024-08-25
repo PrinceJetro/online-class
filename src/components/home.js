@@ -74,6 +74,7 @@ export default function Home(){
             </div>
 
             <h1 className='aboutcourseheader' id='aboutcourse'>About The Course</h1>
+
             <div className='row aboutcourse p-3'>
   <div className="row">
     <div className="column" >
@@ -94,7 +95,7 @@ export default function Home(){
     </div>
     <div className="column" >
       <h2><strong>Course Fee:</strong></h2>
-      <p>Classes are paid, at a token of N2,000 per class.</p>
+      <p>Subsequent classes are paid, at a token of N2,000 per class.</p>
     </div>
     <div className="column" >
       <h2><strong>Duration:</strong></h2>
@@ -126,8 +127,6 @@ export default function Home(){
     </div>
   </div>
 </div>
-
-
 
             <Register/>
 
